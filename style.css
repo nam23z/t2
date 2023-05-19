@@ -1,0 +1,153 @@
+body{
+    width: 100%;
+    height: 100%;
+    /* background-color: #4158D0; */
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    background-repeat: no-repeat;
+}
+h1,a,label,button,p{
+    font-family: 'Poppins';
+}
+a{
+    text-decoration: none;
+}
+.container{
+    margin: 0 auto;
+    border-radius: 25px;
+    background-color: white;
+    width: 1366px;
+    height: 849px;
+    display: flex;
+}
+.left{
+    width: 50%;
+    /* background-color: #C850C0; */
+}
+.logleft{
+    padding-top: 136px;
+    padding-left: 90px;
+    width: 478px;
+}
+.logleft h1{
+    font-size: 56px;
+    line-height: 84px;
+    font-weight: 600;
+}
+#logo{
+    cursor: pointer;
+    width: 212px;
+    height: 47px;
+    background-color: gainsboro;
+    margin-left: 10px;
+}
+.form1 label{
+    display: inline-block;
+    font-size: 16px;
+    line-height: 24px;
+}
+.lb1{
+    width: 100%;
+}
+.lb2{
+    width: 69%;
+    padding-top: 20px;
+}
+.form1 input{
+    display: inline-block;
+    width: 478px;
+    height: 46px;
+    border-radius: 4px;
+    background-color: #C0DBEA;
+    border: none;
+    font-size: 14px;
+    padding-left: 8px;
+}
+.showpw{
+    position:relative;
+}
+.spw{
+    cursor: pointer;
+    position: absolute;
+    right: 4%;
+    top: 31%;
+}
+.form1 a{
+    display: inline-block;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: right;
+    width: 30%;
+    color: #000000;
+}
+.form1 button{
+    cursor: pointer;
+    text-align: center;
+    display: inline-block;
+    background-color: #D885A3;
+    border-radius: 23px;
+    border: none;
+    color: #ffffff;
+    width: 150px;
+    height: 46px;
+    margin-left: 164px;
+    margin-top: 20px;
+}
+.loginDif{
+    text-align: center;
+}
+.loginDif p{
+    color: #6096B4;
+}
+.lgdf{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.gg{
+    cursor: pointer;
+    border: 2px solid #6096B4;
+    width: 125px;
+    border-radius: 40px;
+    padding: 8px 0;
+}
+.signup{
+    text-align: center;
+    margin-top: 20px;
+}
+.signup a{
+    font-size: 14px;
+    line-height: 19px;
+    padding-right: 15px ;
+}
+.sup{
+    color: #D885A3;
+}
+.right{
+    width: 50%;
+    position: relative;
+}
+.character{
+    width: 552px;
+    display: inline-block;
+    z-index: 2;
+    position: absolute;
+    top: 28%;
+    left: -14%;
+}
+.cactus{
+    width: 198px;
+    display: inline-block;
+    z-index: 3;
+    position: absolute;
+    top: 28%;
+    right: 10%;
+}
+.bgright{
+    width: 489px;
+    height: 849px;
+    background-color: #C0DBEA;
+    display: inline-block;
+    z-index: 1;
+    position: absolute;
+    right: 0%;
+}

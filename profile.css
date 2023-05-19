@@ -1,0 +1,209 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-top: 15%;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.main-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 7%;
+    height: 937px;
+    background-color: #FFC297;
+}
+.mtop li{
+    padding-bottom: 100%;
+    text-align: center;
+}
+.st{
+    background-color: #FF7008;
+    border-radius: 50%;
+    padding: 15px;
+    margin-bottom: 10%;
+}
+.menu-text{
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-right: 1px solid black;
+}
+.menu-text ul li{
+    padding-bottom: 30%;
+    font-size: 18.5px;
+}
+.item1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+.top-ct{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1%;
+    padding-left: 10%;
+    padding-right: 5%;
+    width: 80%;
+}
+.form-pf{
+    width: 80%;
+    padding-left: 10%;
+}
+.name{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5%;
+}
+label{
+    font-size: 26px;
+}
+input{
+    width: 100%;
+    margin-bottom: 3%;
+    font-size: 20px;
+    height: 40px;
+}
+.city{
+    display: inline-block;
+    width: 100%;
+}
+select{
+    height: 50px;
+    width: 40%;
+    font-size: 20px;
+}
+.btn{
+    margin-top: 3%;
+}
+.btn button{
+    width: 20%;
+    height: 36px;
+    outline: none;
+    border: 0.5px solid;
+    border-radius: 5px;
+}
+.cancle{
+    border-color: #FF7008;
+    background-color: #ffffff;
+    color: #FF7008;
+
+}
+.save{
+    background-color: #FF7008;
+    color: #ffffff;
+    border-color: #FF7008;
+
+}
+.valida{
+    position: relative;
+
+}
+.valida .vld1{
+    position: absolute;
+    color: white;
+    display: none;
+    top: 14%;
+    right: 0;
+    background-color: #23B000;
+    border-radius: 5px;
+    padding: 0.5%;
+}
+.valida .vld2{
+    position: absolute;
+    color: white;
+    display: none;
+    top: 14%;
+    right: 0;
+    background-color: red;
+    border-radius: 5px;
+    padding: 0.5%;
+}
+.valida .vldclss{
+    display: inline-block;
+}
+.btn{
+    transition-duration: 1s;
+}
+.btn button:hover{
+    transform: scale(1.2);
+}
+.img2{
+    position: relative;
+    display: inline-block;
+}
+.logout{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+.img2:hover .logout{
+    display: block;
+}
+.img2 a{
+    text-decoration: none;
+    color: #FF7008;
+}
+.img2 img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+@media only screen and (max-width : 390px) {
+    .main-menu{
+        width: 15%;
+        height: 844px;
+    }
+    .st{
+        border-radius: 50%;
+        padding: 5px;
+    }
+    .avt svg{
+        width: 85%;
+        /* border-color:ini ; */
+    }
+    .st{
+        border-radius: 50%;
+        padding: 1%;
+        margin-bottom: 10%;
+    }
+    .st svg{
+        width: 100%;
+    }
+    .menu-text{
+        display: none;
+    }
+    .name{
+        flex-wrap: wrap;
+    }
+    .form-pf select{
+        width: 100%;
+    }
+    .btn button{
+        width: 49%;
+        height: 36px;
+        outline: none;
+        border: 0.5px solid;
+        border-radius: 5px;
+    }
+}
